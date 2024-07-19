@@ -1,4 +1,5 @@
 const Router = require("express").Router();
+const database = require('../');
 
 /*
 Route           /publications

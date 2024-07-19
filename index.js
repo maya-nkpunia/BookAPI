@@ -19,9 +19,7 @@ shapeAI.use(express.json());
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
+    useUnifiedTopology: true
   })
   .then(() => console.log("connection established!!!!!!!"));
 
